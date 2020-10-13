@@ -227,6 +227,7 @@ GameObject:
   - component: {fileID: 277695654}
   - component: {fileID: 277695653}
   - component: {fileID: 277695652}
+  - component: {fileID: 277695655}
   m_Layer: 5
   m_Name: Jogar(Btn)
   m_TagString: Untagged
@@ -328,6 +329,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 277695650}
   m_CullTransparentMesh: 0
+--- !u!95 &277695655
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 277695650}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7726ab5eafb8e0f44a0bf6d8fe8d7b2f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &807081342
 GameObject:
   m_ObjectHideFlags: 0
@@ -477,6 +497,7 @@ GameObject:
   - component: {fileID: 1037755319}
   - component: {fileID: 1037755321}
   - component: {fileID: 1037755320}
+  - component: {fileID: 1037755322}
   m_Layer: 5
   m_Name: btn effect
   m_TagString: Untagged
@@ -538,6 +559,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1037755318}
   m_CullTransparentMesh: 0
+--- !u!95 &1037755322
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1037755318}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d27ad37bcdf84644fb8530637f2f1cb3, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1230501703
 GameObject:
   m_ObjectHideFlags: 0
